@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+}
+#genel{
+    width: 100%;
+    height: 80vh;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tahminYazma{
+    width: 350px;
+    text-align: center;
+    margin: -30px 0 0 0;
+    display: block;
+}
+#text{
+    width: 300px;
+    height: 70px;
+    font-size: 40px;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 0 20px 0;
+}
+#hakyazi{
+    width: 100%;
+    height: 30px;
+    display: block;
+    font-size: 24px;
+    color:white;
+}
+#tekrarOyna{
+    width: 150px;
+    height: 50px;
+    margin: 30px 0 0 0;
+    font-size: 28px;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    border-radius: 30px;
+    color:black;
+    background-color: white;
+    float: left;
+    margin: 0 10px 0 15px;
+}
+#tekrarOyna:hover, #tekrarOyna:active{
+    background-color: chartreuse;
+    color: white;
+}
+#tahminEtbtn{
+    width: 150px;
+    height: 50px;
+    margin: 30px 0 0 0;
+    font-size: 28px;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    border-radius: 30px;
+    color:black;
+    background-color: white;
+    float: left;
+    margin: 0 0 0 10px;
+}
+#tahminEtbtn:hover, #tahminEtbtn:active{
+    background-color: chartreuse;
+    color: white;
+}
+#label{
+    color:chartreuse;
+    font-size: 50px;
+    margin: 0 0 100px 0;
+}
+#uyari{
+    display: inline-block;
+    font-size: 20px;
+    color:red;
+}
+#welcome{
+    width: 100%;
+    height: 20vh;
+    font-size: 50px;
+    color:aquamarine;
+    background-color: #222;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+#welcome div{
+    margin: 30px 0 0 0;
+}
+@media only screen and (max-width:768px){
+    #welcome{
+        font-size: 38px;
+    }
+    #text{
+        width: 250px;
+        height: 60px;
+        font-size: 35px;
+    }
+    #tahminEtbtn{
+        width: 150px;
+        height: 40px;
+        font-size: 25px;
+        line-height: 40px;
+        margin: 0 0 0 30px;
+    }
+    #tekrarOyna{
+        width: 150px;
+        height: 40px;
+        font-size: 25px;
+        line-height: 40px;
+        margin: 0 0 0 10px;
+
+    }
+    #uyari{
+        font-size: 18px;
+        margin: 0 0 20px 0;
+    }
+    #hakyazi{
+        font-size: 23px;
+    }
+    #label{
+        font-size:40px;
+        margin: 0 0 100px 0;
+    }
+}
+@media only screen and (max-width:500px){
+    #welcome{
+        font-size: 35px;
+    }
+    #text{
+        width: 220px;
+        height: 55px;
+        font-size: 32px;
+    }
+    #tahminEtbtn{
+        width: 130px;
+        height: 38px;
+        font-size: 24px;
+        line-height: 38px;
+        margin: 0 0 0 30px;
+    }
+    #tekrarOyna{
+        width: 130px;
+        height: 38px;
+        font-size: 24px;
+        line-height: 38px;
+        margin: 0 0 0 30px;
+
+    }
+    #hakyazi{
+        font-size: 22px;
+    }
+    #label{
+        font-size:30px;
+    }
+}
+@media only screen and (max-width:350px){
+    #welcome{
+        font-size: 30px;
+    }
+    #text{
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+    }
+    #tahminEtbtn{
+        width: 130px;
+        height: 38px;
+        font-size: 24px;
+        line-height: 38px;
+        margin: 0 0 0 10px;
+    }
+    #tekrarOyna{
+        width: 130px;
+        height: 38px;
+        font-size: 24px;
+        line-height: 38px;
+        margin: 0 0 0 20px;
+    }
+    #uyari{
+        font-size: 16px;
+    }
+    #hakyazi{
+        font-size: 20px;
+    }
+}
